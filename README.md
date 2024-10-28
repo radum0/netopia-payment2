@@ -6,7 +6,7 @@ applications written in the PHP language.
 PHP 5.7.x - 8.0.x
 
 ## API Documention
-* https://alexntp.stoplight.io/docs/api-payments/6530c434c2f93-netopia-payments-merchant-api
+* https://netopia-system.stoplight.io/docs/payments-api/6530c434c2f93-netopia-payments-merchant-api
 
 ## API Specification
 * https://secure.sandbox.netopia-payments.com/spec
