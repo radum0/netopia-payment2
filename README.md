@@ -229,6 +229,7 @@ Use this endpoint to start a payment. Based on the response to this call the pro
     * **3** : is paid
     * **5** : is confirmed
 
+    for more information isit https://doc.netopia-payments.com/
     #### **Note** 
     Error Code **100** & Status **15**, means you need to do **Authorize** the transaction via Bank first (**3DS**)
     Error Code **0** & Status **3**, means your job is done.

@@ -41,7 +41,7 @@ class Status extends Start{
             
             
 
-            $url = $this->isLive ? 'https://secure.netopia-payments.com/operation/status' : 'https://secure.sandbox.netopia-payments.com/operation/status';
+            $url = $this->isLive ? 'https://secure.netopia-payments.com/api/operation/status' : 'https://secure-sandbox.netopia-payments.com/operation/status';
             $ch = curl_init($url);
             $payload = $jsonStr; // json DATA
         
