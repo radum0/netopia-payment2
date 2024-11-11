@@ -1,5 +1,5 @@
 {
-    "name": "netopia/paymentsv2",
+    "name": "netopia/payment2",
     "description": "The Payments API was designed and implemented by NETOPIA Payments development team and is meant to be used in third party applications to cover the payment process.",
     "type": "library",
     "license": "Apache-2.0",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Netopia\\Paymentsv2\\": "src/"
+            "Netopia\\Payment2\\": "src/"
         }
     }
 }

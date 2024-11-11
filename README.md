@@ -13,9 +13,9 @@ PHP 5.7.x - 8.0.x
 
 ## Installation
 To install the library via <a href="https://getcomposer.org/" target="_blank">composer</a>, run the following command:
-* composer require netopia/paymentsv2
+* composer require netopia/payment2
 
-Or add **"netopia/paymentsv2": "^1.0.0"** to the "require" section in composer.json
+Or add **"netopia/payment2": "^1.0.0"** to the "require" section in composer.json
 
 ## API Actions
 ### Start
