@@ -1,4 +1,6 @@
 <?php 
+namespace Netopia\Payment2;
+
 class Authorize extends Start{
     public $backUrl;
     public $paReq;

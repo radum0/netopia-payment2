@@ -1,6 +1,5 @@
 <?php
-include_once('../lib/request.php');
-
+namespace Netopia\Payment2;
 
 class VerifyAuth extends Request {
     // public $paRes;
@@ -8,8 +7,6 @@ class VerifyAuth extends Request {
     public function __construct(){
         parent::__construct();
     }
-
-
 
     public function setVerifyAuth() {
         $paymentCartVerifyAuthParam = [

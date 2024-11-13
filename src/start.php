@@ -1,4 +1,6 @@
-<?php 
+<?php
+namespace Netopia\Payment2;
+
 class Start {
     public $posSignature;
     public $notifyUrl;
