@@ -330,7 +330,7 @@ class IPN extends Request{
         if(!is_array($httpHeader)){
             return false;
         } else {
-            if(!array_key_exists('Verification-token', $httpHeader)){
+            if(!array_key_exists('Verification-Token', $httpHeader)){
                 return false;
             }
         }
@@ -343,7 +343,7 @@ class IPN extends Request{
     public function getVerificationToken($httpHeader) {
         foreach($httpHeader as $headerName=>$headerValue)
             {
-                if(strcasecmp('Verification-token', $headerName) == 0)
+                if(strcasecmp('Verification-Token', $headerName) == 0)
                 {
                     $verificationToken = $headerValue;
                     return $verificationToken;

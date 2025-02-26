@@ -1,12 +1,12 @@
 {
-    "name": "netopia/payment2",
+    "name": "codemelt/netopia-payment2",
     "description": "The Payments API was designed and implemented by NETOPIA Payments development team and is meant to be used in third party applications to cover the payment process.",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "NETOPIA Payments",
-            "email": "implementare@netopia-system.com"
+            "name": "Radu Moraru",
+            "email": "radu.moraru@codemelt.com"
         }
     ],
     "minimum-stability": "dev",

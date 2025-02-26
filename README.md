@@ -1,3 +1,6 @@
+## IMPORTANT!
+Repo forked from https://github.com/netopiapayments/composer and fixed wrong header name in IPN.php.
+
 ## Introduction
 The NETOPIA Payment PHP library provides easy access to the NETOPIA Payments API from
 applications written in the PHP language.
